@@ -4,50 +4,39 @@
 
 //2. Log their values to the console.
 
-// const country = "Nigeria";
-// const continent = "Africa";
-// let population = 10;
+const country = "Nigeria";
+const continent = "Africa";
+let population = 10;
 
-// console.log(country);
-// console.log(continent);
-// console.log(population);
+console.log(country);
+console.log(continent);
+console.log(population);
 
-// //Data Types
+//Data Types
 
-// const isIsland = false;
-// let language = "English";
+const isIsland = false;
+let language = "English";
 
-// // isIsland = true;
+// isIsland = true;
 
-// console.log(typeof isIsland);
-// console.log(typeof population);
-// console.log(typeof country);
-// console.log(typeof language);
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);
 
-// //Basic operators
-// console.log(population / 2);
+//Basic operators
+console.log(population / 2);
 
-// population++;
-// console.log(population);
+population++;
+console.log(population);
 
-// let finlandPopulation = 6;
-// let comparePopulation = population > finlandPopulation;
-// console.log(comparePopulation);
+let finlandPopulation = 6;
+let comparePopulation = population > finlandPopulation;
+console.log(comparePopulation);
 
-// let averagePopulation = 33;
-// let compareAveragePopulation = population < averagePopulation;
-// console.log(compareAveragePopulation);
-
-// const description =
-//   country +
-//   " is in " +
-//   continent +
-//   ", and its " +
-//   population +
-//   " million people speak " +
-//   language;
-
-// console.log(description);
+let averagePopulation = 33;
+let compareAveragePopulation = population < averagePopulation;
+console.log(compareAveragePopulation);
 
 //CHALLENGE #1
 
@@ -97,18 +86,33 @@ IMPORTANT: The ** operator is not supported in this editor. Please make sure to 
 
 //TEST DATA 2
 
-let massMark = 95;
-let heightMark = 1.88;
+// let massMark = 95;
+// let heightMark = 1.88;
 
-let massJohn = 85;
-let heightJohn = 1.76;
+// let massJohn = 85;
+// let heightJohn = 1.76;
 
-//BMI = mass / (height * height)
-let BMIMark = massMark / (heightMark * heightMark);
-let BMIJohn = massJohn / (heightJohn * heightJohn);
+// //BMI = mass / (height * height)
+// let BMIMark = massMark / (heightMark * heightMark);
+// let BMIJohn = massJohn / (heightJohn * heightJohn);
 
-let markHigherBMI = BMIMark > BMIJohn;
+// let markHigherBMI = BMIMark > BMIJohn;
 
-console.log(BMIMark);
-console.log(BMIJohn);
-console.log(markHigherBMI);
+// console.log(BMIMark);
+// console.log(BMIJohn);
+// console.log(markHigherBMI);
+
+///////////////////////////////
+//Strings and template literals
+// const description =
+//   country +
+//   " is in " +
+//   continent +
+//   ", and its " +
+//   population +
+//   " million people speak " +
+//   language;
+
+const description = `${country} is in ${continent}, and its ${population} million people speal ${language}`.;
+
+console.log(description);
