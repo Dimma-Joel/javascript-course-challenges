@@ -68,12 +68,12 @@ IMPORTANT: The ** operator is not supported in this editor. Please make sure to 
 ////////////////////////////////////
 // CHALLENGE 2
 
-if (averagePopulation > population) {
-  const average = averagePopulation - population;
-  console.log(`${country}'s population is ${average} million below average`);
-} else {
-  console.log(`${country}'s population is above average`);
-}
+// if (averagePopulation > population) {
+//   const average = averagePopulation - population;
+//   console.log(`${country}'s population is ${average} million below average`);
+// } else {
+//   console.log(`${country}'s population is above average`);
+// }
 
 ///////////////////////////////////////
 //CHALLENGE #3
@@ -93,8 +93,8 @@ if (averagePopulation > population) {
 
 // TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110.
 
-const scoreDolphins = 96 + 108 + 89 / 2;
-const scoreKoalas = 88 + 91 + 110 / 2;
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
 
 console.log(scoreDolphins);
 console.log(scoreKoalas);
